@@ -1,0 +1,60 @@
+[33mcommit 1b82c6a8dbd925e07cb07bc5776c94148d87bd54[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Thu Sep 3 02:56:30 2020 -0400
+
+    commit inicial para deployar en heroku
+
+[33mcommit 6ee3d8aff00ac47f8142f27247ec443db82371b8[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Tue Jul 28 11:44:47 2020 -0400
+
+    se modificacaron y asignaron los styles a cada componente
+
+[33mcommit d456c59cef8c3c5f3bdd0f263db1a373d4717324[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Tue Jul 21 01:04:54 2020 -0400
+
+    Esto es un commit, operativamente esta funcionando
+
+[33mcommit d1cb57ffd15144ac2ed64be39d3e3f82594a4c1a[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Sat Jul 4 19:41:10 2020 -0400
+
+     Se agrega la pagina de login y registro, dejando operativo los procesos de cada uno
+
+[33mcommit fa2e89f9d9bbf5de953ec52a7f68063f760f5b32[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Fri Jul 3 22:54:28 2020 -0400
+
+    Se creo el virtual scroll para el componente galeria, se agregaron nuevos estilos de css al componente galeria y el css central
+
+[33mcommit 0ceaa2bf7def153a8463e5379e133dabdc93967b[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Tue Jun 23 19:35:40 2020 -0400
+
+    Se creo el comoponente galeria, se modifico el contenedor de firebase eliminando los regitros de compendium. se dejo operativo el componente galeria mostrando las imagenes con la ruta local desde el servicio
+
+[33mcommit 96a9083f8a5b98123bd0242ee13e165ad04431bd[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Mon Jun 22 21:28:44 2020 -0400
+
+    Se crearon los componentes de listado de cartas, se creo el servicio de las cartas, se experimento con algunas propiedades del servicio
+
+[33mcommit 018b64a6936f3f17def9c614751e67e82efcbee0[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Sat Jun 6 14:44:18 2020 -0400
+
+    se creo la maqutacion de la pagina principal home, modificando elementos
+    del css.
+
+[33mcommit 0a79a6a9933835814eec7901cffb484068f01a90[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Thu May 28 15:50:46 2020 -0400
+
+    Se crea la estructura del projecto inicial y se importan las librerias jquery,bootstrap
+
+[33mcommit 1333b057f61264e4374bc4bbc6fcbebaec7ef6c3[m
+Author: patrick <patricio.vildo@gmail.com>
+Date:   Thu May 28 14:49:01 2020 -0400
+
+    initial commit

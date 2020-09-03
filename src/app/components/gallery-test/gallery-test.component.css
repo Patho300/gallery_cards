@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Marcellus%20SC:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&display=swap');
+
+
+
+.container{
+    Flex-direction: column;
+    align-items: stretch;
+    border: solid 2px black;
+    /*background-image: url("../../../assets/img/fondo1.jpg");*/
+}
+
+
+/* Form */
+.container input{
+    font-family: 'Marcellus SC', cursive;
+    border: solid 1px black;
+}
+
+.container label{
+    
+    font-family: 'Marcellus SC', cursive;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.container #cost{
+    border: solid 1px black;
+    font-family: 'Marcellus SC', cursive;
+    color: #2E2E2E;
+}
+
+.container #edition{
+    border: solid 1px black;
+    font-family: 'Marcellus SC', cursive;
+    color: #2E2E2E;
+}
+
+.container #type{
+    border: solid 1px black;
+    font-family: 'Marcellus SC', cursive;
+    color: #2E2E2E;
+}
+
+.container button{
+    font-size: 15px;
+    font-family: 'Marcellus SC', cursive;
+    border: solid 1px black;
+}
+
+
+
+/* Tabla */
+
+.table{
+    /* etiqueta de la tabla en general*/
+    font-family: 'Gayathri', sans-serif;
+    font-size: 18px;
+}
+
+/* Agregado  */
+.list-container{
+    
+    border: solid 1px black;
+    min-height: 40em;
+    background: white;
+    border-radius: 4px;
+    overflow: auto;
+    display: block;
+    
+}
+
+
+
+.table thead th{
+    
+    border: solid 2px black;
+    
+}
+
+.table strong{
+
+    font-size: 22px;
+    font-family:'Marcellus SC', cursive;
+    color: #192434;
+    
+}
+
+
+.table tbody tr th{
+    
+    border: solid 2px black;
+}
+
+
+.table tbody tr td{
+    
+    
+    border: solid 2px black;
+}
+
+
+
+

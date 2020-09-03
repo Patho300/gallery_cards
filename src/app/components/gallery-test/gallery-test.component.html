@@ -1,0 +1,73 @@
+
+<div class="container w-55 mt-3">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Nombre De La Carta</label> 
+                <input type="text"  
+                       [(ngModel)]="nombre" 
+                       class="form-control" 
+                       (keyup)="BuscarNombre()"
+                       id="cardname">
+            </div>
+
+            <div class="form-group col-md-4">
+                <label>Coste</label>
+                <select id="cost" 
+                        [(ngModel)]="CosteSeleccionado"
+                        class="form-control"
+                        #coste
+                        (change)="BuscarCoste($event)">
+                    <option value= null hidden selected>Coste</option> 
+                    <option *ngFor="let coste of costes" [value]="coste.coste">{{coste.coste}}</option>      
+                </select>
+            </div>
+           
+            <div class="form-group col-md-6">
+                <label>Edicion</label>
+                <select id="edition" 
+                        [(ngModel)]="EdicionSeleccionado"
+                        #edicion
+                        class="form-control"
+                        (change)="BuscarEdicion()">
+                    <option value= null hidden selected>Edición</option> 
+                    <option *ngFor="let edicion of ediciones" [value]="edicion.edicion">{{edicion.edicion}}</option>    
+                </select>
+            </div>  
+
+            <div class="form-group col-md-5">
+                <label>Tipo</label>
+                <select id="type" 
+                        [(ngModel)]="TipoSeleccionado"
+                        class="form-control"
+                        (change)="BuscarTipo()">
+                    <option value= null hidden selected>Tipo</option>     
+                    <option *ngFor="let tipo of tipos" [value]="tipo.tipo">{{tipo.tipo}}</option>
+                </select>
+            </div>
+        
+            <div class="form-group col-md-3"
+                 (click)="LimpiaCampo()">
+                <button class="btn btn-danger" type="submit">Eliminar Filtros</button>
+            </div>
+        </div>
+   
+
+    <cdk-virtual-scroll-viewport itemSize="2" class="list-container">
+        <table class="table">
+            <tbody>
+                    <tr *ngFor="let carta of cartas">
+                        <th scope="row"><img src="{{carta.ruta}}"></th>
+                        <td>
+                            <strong>{{carta.nombre}}</strong>
+                            <p class="text-justify">{{carta.habilidad}}</p>
+                            <p class="text-justify"><strong>Tipo: </strong>{{carta.tipo}}</p>
+                            <p class="text-justify"><strong>Coste: </strong>{{carta.coste}}</p>
+                            <p class="text-justify"><strong>edición: </strong>{{carta.edicion}}</p>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+    </cdk-virtual-scroll-viewport>
+
+</div>
+
