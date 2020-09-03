@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Marcellus%20SC:400,700');
 
 body{ 
-  background-image: url('./assets/img/weaita.png');
-
+  background-image: url('../src/assets/img/bg.png');
 }
 
 footer{
   font-family: 'Marcellus SC';
   font-size: 20px;
   margin-top: 25px;
-  color: white;
-
+  color: black;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
   text-align: center;
 }

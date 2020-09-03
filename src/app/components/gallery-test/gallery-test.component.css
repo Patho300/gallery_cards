@@ -69,7 +69,6 @@
     min-height: 40em;
     background: white;
     border-radius: 4px;
-    overflow: auto;
     display: block;
     
 }
@@ -104,5 +103,14 @@
 }
 
 
+/* Media queries */
+@media (max-width: 414px){
+    .table{
+        width: auto;
+    }
 
+    .list-container td {
+        display: none;
+    }
 
+}
