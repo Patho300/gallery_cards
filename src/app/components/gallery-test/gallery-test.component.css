@@ -7,7 +7,7 @@
     Flex-direction: column;
     align-items: stretch;
     border: solid 2px black;
-    /*background-image: url("../../../assets/img/fondo1.jpg");*/
+    background-image: url("../../../assets/img/black.jpg");
 }
 
 
@@ -23,7 +23,8 @@
     margin-top: 8px;
     margin-bottom: 5px;
     font-size: 20px;
-    color: black;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .container #cost{
@@ -58,6 +59,7 @@
     /* etiqueta de la tabla en general*/
     font-family: 'Gayathri', sans-serif;
     font-size: 18px;
+    background-color: #F8FAFB;
 }
 
 /* Agregado  */
