@@ -4,6 +4,7 @@ import { CardsService } from 'src/app/services/cards.service';
 import { AuthService } from '../../services/auth.service';
 import { cards } from 'src/app/models/cards.model';
 import { CdkVirtualScrollViewport} from '@angular/cdk/scrolling';
+import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-gallery-test',
@@ -201,8 +202,6 @@ export class GalleryTestComponent implements OnInit {
   }
     
   }
-
-
 
 
  

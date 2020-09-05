@@ -51,7 +51,27 @@
     border: solid 1px black;
 }
 
+.container i {
+    margin-left: 0.5rem ;
+    color: white;
+}
 
+.hide{
+    display: none;
+}
+
+.container .fas:hover +.hide{
+    font-family: 'Marcellus SC', cursive;
+    font-size: 20px;
+    display: block;
+    color: #76BEE2;
+    /*background-color: white;*/
+    text-align:justify ;
+    border: solid 3px white;
+    margin-top: 5px;
+    opacity: 1;
+
+}
 
 /* Tabla */
 
@@ -61,6 +81,7 @@
     font-size: 18px;
     background-color: #F8FAFB;
 }
+
 
 /* Agregado  */
 .list-container{
@@ -103,13 +124,28 @@
 }
 
 
+/* campos de precios*/
+
+.precio-edition {
+    margin-top: 10px;
+    color: green;
+    font-size: 18px;
+}
+
+.precio-reddit{
+    color: blue;
+    font-size: 18px;
+}
+
+
+
 /* Media queries */
 @media (max-width: 450px){
     .table{
         width: auto;
     }
 
-    .list-container td {
+    .list-container .section-1{
         display: none;
     }
 
